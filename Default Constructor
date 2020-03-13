@@ -1,0 +1,21 @@
+class Student:
+    def __init__(self):
+        self.name ='xyz'
+        self.rollno=101
+        self.marks =90
+    def printValues(self):
+        print("name = ",self.name)
+        print("rollno = ",self.rollno)
+        print("grade = ",self.marks)
+        if(self.marks>=90):
+            print("grade = A")
+        elif(self.marks>=75 and self.marks<90):
+            print("grade = B")
+        elif(self.marks>=50 and self.marks<75):
+            print("grade = C")
+        elif(self.marks<50):
+            print("grade = D")
+        else:
+            print("grade = F")
+stu=Student()
+stu.printValues()
