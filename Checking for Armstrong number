@@ -1,0 +1,13 @@
+num=int(input("Enter the number : "))
+sto=num
+summ=0
+while(num!=0):
+    dig=num%10
+    cube=(dig*dig*dig)
+   
+    summ=summ+cube
+    num=num//10
+if(summ==sto):
+    print("The given number is an Armstrong number")
+else:
+    print("The given number is not an Armstrong number")
