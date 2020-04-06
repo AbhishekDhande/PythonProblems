@@ -1,0 +1,3 @@
+name=input("Enter the desired word : ")
+char=input("enter the character to count : ")
+print("total count : ",name.count(char))
