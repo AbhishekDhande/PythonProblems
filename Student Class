@@ -1,7 +1,7 @@
 class student:
     def __init__(self):
         self.name='Abhishek'
-        self.rollno=100
+        self.rollno=08
     def printvalue(self):
         print("Rollno=",self.rollno)
         print("name=",self.name)
